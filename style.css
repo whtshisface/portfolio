@@ -33,7 +33,7 @@ main {
 }
 
 #project1 {
-  background-image: url("RockScene_logo.png");
+  background-image: url("./portfolio/RockScene_logo.png");
   border-radius: 15px;
   grid-area: project1;
   text-align: center;
