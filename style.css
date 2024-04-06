@@ -1,11 +1,12 @@
 .container {
+  height: 100dvh;
   font-family: monospace;
   display: grid;
   position: relative;
   margin: auto;
   gap: 0.2rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 600px 200px 150px;
+  grid-template-rows: 0.5fr 2fr 1fr 0.5fr;
   grid-template-areas: 
    "nav nav nav"
    "main main main"
