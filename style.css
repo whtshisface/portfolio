@@ -1,49 +1,40 @@
 .container {
-  display: grid;
-  position: relative;
-  margin: auto;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 600px 200px 150px;
-  grid-template-areas: 
-   "nav nav nav"
-   "main main main"
-   "project1 project2 project3"
-   "footer footer footer"
-}
-
-nav {
-  background-color: orange;
-  border-radius: 15px;
-  grid-area: nav;
-}
-
-main {
-  background-color: blue;
-  border-radius: 15px;
-  grid-area: main;
-}
-
-#project1 {
-  background-color: green;
-  border-radius: 15px;
-  grid-area: project1;
-}
-
-#project2 {
-  background-color: gray;
-  border-radius: 15px;
-  grid-area: project2;
-}
-
-#project3 {
-  background-color: purple;
-  border-radius: 15px;
-  grid-area: project3;
-}
-
-footer {
-  background-color: aqua;
-  border-radius: 15px;
-  grid-area: footer;
-}
+    display: grid;
+    /*max-width: 900px;*/
+    position: relative;
+    margin: auto;
+    gap: 10px;
+    grid-template-areas: "header header" "nav nav" "left right" "footer footer";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 150px 200px 600px 200px;
+  }
+  
+  h1, h2 {
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  header {
+    background-color: dodgerblue;
+    grid-area: header;
+  }
+  
+  nav {
+    background-color: beige;
+    grid-area: nav;
+  }
+  
+  .left {
+    background-color: dodgerblue;
+    grid-area: left;
+  }
+  
+  .right {
+    background-color: beige;
+    grid-area: right;
+  }
+  
+  footer {
+    background-color: dodgerblue;
+    grid-area: footer;
+  }
