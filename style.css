@@ -14,30 +14,36 @@
 
 nav {
   background-color: orange;
+  border-radius: 15px;
   grid-area: nav;
 }
 
 main {
   background-color: blue;
+  border-radius: 15px;
   grid-area: main;
 }
 
 #project1 {
   background-color: green;
+  border-radius: 15px;
   grid-area: project1;
 }
 
 #project2 {
   background-color: gray;
+  border-radius: 15px;
   grid-area: project2;
 }
 
 #project3 {
   background-color: purple;
+  border-radius: 15px;
   grid-area: project3;
 }
 
 footer {
   background-color: aqua;
+  border-radius: 15px;
   grid-area: footer;
 }
