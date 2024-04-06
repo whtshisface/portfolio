@@ -1,3 +1,43 @@
 .container {
   display: grid;
+  position: relative;
+  margin: auto;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 600px 200px 150px;
+  grid-template-areas: 
+   "nav nav nav"
+   "main main main"
+   "project1 project2 project3"
+   "footer footer footer"
+}
+
+nav {
+  background-color: orange;
+  grid-area: nav;
+}
+
+main {
+  background-color: blue;
+  grid-area: main;
+}
+
+#project1 {
+  background-color: green;
+  grid-area: project1;
+}
+
+#project2 {
+  background-color: gray;
+  grid-area: project2;
+}
+
+#project3 {
+  background-color: purple;
+  grid-area: project3;
+}
+
+footer {
+  background-color: aqua;
+  grid-area: footer;
 }
