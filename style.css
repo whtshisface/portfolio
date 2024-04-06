@@ -33,7 +33,7 @@ main {
 }
 
 #project1 {
-  background-color: green;
+  background-image: url("./resources/RockScene_logo.png");
   border-radius: 15px;
   grid-area: project1;
   text-align: center;
